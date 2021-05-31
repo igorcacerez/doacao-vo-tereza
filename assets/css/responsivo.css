@@ -1,0 +1,49 @@
+@media only screen and (max-width: 991px)
+{
+    .magin-cards
+    {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .banner
+    {
+        background-image: url("../img/banner-mobile.png");
+    }
+
+    .card-doacao
+    {
+        background-size: cover;
+        height: 225px;
+        border-radius: 40px;
+    }
+
+    .magin-cards
+    {
+        margin-bottom: 20px;
+    }
+
+    .img-logo
+    {
+        width: 220px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .card-doacao
+    {
+        height: 215px;
+    }
+}
+
+@media only screen and (max-width: 380px)
+{
+    .card-doacao
+    {
+        height: 200px;
+    }
+}

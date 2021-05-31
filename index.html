@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+
+    <!-- SEO Meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Sua doação será destinada a instituições Vó Tereza da cidade de Birigui-SP." />
+    <meta name="keywords" content="doação, vo tereza, ajuda, birigui, instituição, caridade, senhoras" />
+    <meta name="distribution" content="global" />
+    <meta name="revisit-after" content="10 Days" />
+    <meta name="robots" content="ALL" />
+    <meta name="language" content="pt-br" />
+    <meta name="theme-color" content="#976ca2">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#976ca2">
+    <meta name="msapplication-navbutton-color" content="#976ca2">
+
+    <!-- SMO Facebook -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="http://desigual.com.br/doacoes">
+    <meta property="og:title" content="Ajude o Abrigo Vó Tereza">
+    <meta property="og:site_name" content="Abrigo Vó Tereza">
+    <meta property="og:description" content="Sua doação será destinada a instituições Vó Tereza da cidade de Birigui-SP.">
+    <meta property="og:image" content="https://desigual.com.br/doacoes/assets/img/banner-mobile.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="425">
+    <meta property="og:image:height" content="579">
+
+    <title>Abrigo Vó Tereza - Doações</title>
+
+</head>
+<body>
+
+<!-- BANNER -->
+<div class="banner"></div>
+
+<!-- BARRA DOAÇÃO -->
+<div class="barra-doacao centraliza-itens">
+    <h1 class="mt-2">Sua doação faz a Diferença</h1>
+</div>
+
+<!-- BARRA DOAÇÃO -->
+<a href="https://api.whatsapp.com/send/?phone=5518991294193" target="_blank">
+    <div style="background-color: #976ca2" class="barra-doacao centraliza-itens">
+        <h1 class="mt-2">Para ajudar de outra maneira: <img width="30px" src="assets/img/whats.png">(18) 99129-4193 </h1>
+    </div>
+</a>
+
+<!-- DOAÇÃO -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 col-sm-6 col-6 magin-cards cards">
+            <a href="https://pag.ae/7V-s9kAS4" target="_blank">
+                <div class="card-doacao" style="background-image: url('assets/img/pagseguro.png');"></div>
+            </a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-6 magin-cards cards" data-toggle="modal" data-target=".modalPix">
+            <div class="card-doacao" style="background-image: url('assets/img/pix.png');"></div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-6 magin-cards cards" data-toggle="modal" data-target=".modalDoacao" data-valor="30.00">
+            <a href="https://api.whatsapp.com/send/?phone=5518991294193" target="_blank">
+                <div class="card-doacao" style="background-image: url('assets/img/cpfl.png');"></div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- CALCULADORA -->
+<div class="barra-calculadora">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Deslize para calcular</h3>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="500" value="25" class="slider" id="kgRange">
+                    <p>R$:<span id="valor">150,00</span> Equivalente a <span id="kg">30kg</span> de alimento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PERGUNTAS -->
+<div class="container perguntas">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Perguntas frequentes</h4>
+        </div>
+
+        <div class="col"></div>
+        <div class="col-md-10">
+            <div style="cursor: pointer" onclick="faq('resp-1')">
+                <p class="pergunta">
+                    <img id="resp-1-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Pra onde irá minha doação?
+                </p>
+                <div id="resp-1" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        Sua doação será destinada a 4 instituições da cidade de Birigui-SP: APAE Birigui, Abrigo Vó Tereza, Instituto Pró-Criança e Projeto Empreendedor Mirim.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-2')">
+                <p class="pergunta">
+                    <img id="resp-2-img" alt="icone resposta" src="assets/img/seta.svg">
+                    O valor doado será revertido 100% em doação?
+                </p>
+                <div id="resp-2" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        Sim, todo o dinheiro, alimento e material doado será revertido para as entidades.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-3')">
+                <p class="pergunta">
+                    <img id="resp-3-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Como será feito a distribuição dos alimentos?
+                </p>
+                <div id="resp-3" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        Será feita de acordo com a necessidade de cada instituição.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-4')">
+                <p class="pergunta">
+                    <img id="resp-4-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Posso doar em outro momento?
+                </p>
+                <div id="resp-4" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        O QR code expirará em 1 semana após a live e deixaremos o contato das instituições para que você possa doar.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-5')">
+                <p class="pergunta">
+                    <img id="resp-5-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Posso doar alimento ao invés de dinheiro?
+                </p>
+                <div id="resp-5" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        Sim, através do contato (18) 99705-2580.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-6')">
+                <p class="pergunta">
+                    <img id="resp-6-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Posso contribuir de outra forma?
+                </p>
+                <div id="resp-6" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        Sim, toda contribuição é bem-vinda, para mais dúvidas entre em contato no telefone (18) 99705-2580.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-7')">
+                <p class="pergunta">
+                    <img id="resp-7-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Posso acompanhar a prestação de contas?
+                </p>
+                <div id="resp-7" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        A prestação de contas será feita nas redes sociais da dupla e as dúvidas podem ser tiradas através do contato (18) 99705-2580.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+            <div style="cursor: pointer" onclick="faq('resp-8')">
+                <p class="pergunta">
+                    <img id="resp-8-img" alt="icone resposta" src="assets/img/seta.svg">
+                    Ainda tem dúvidas?
+                </p>
+                <div id="resp-8" class="mt-2 mb-2" style="display: none;">
+                    <hr>
+                    <p class="resposta">
+                        Entre em contato com a gente (18) 99705-2580.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+</div>
+
+<!-- RODAPÉ -->
+<div class="container mt-5">
+    <div class="row rodape">
+        <div class="col-md-12">
+            <p>© 2021 ABRIGO VÓ TEREZA | TODOS OS DIREITOS RESERVADOS.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Pix -->
+<div class="modal fade modalPix" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="row">
+                <div class="col-md-12 centraliza-itens">
+                    <label>DOAR PELO PIX</label>
+                </div>
+            </div>
+            <div class="modal-body">
+
+                <img src="assets/img/qrcode-pix.png" style="max-width: 100%; display: block; margin: 0 auto;" />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- JavaScript-->
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/mask.js"></script>
+<script>
+
+    var FAQ_ABERTO = "";
+
+    // FUNCÇÃO DO FAQ
+    function faq(idAbre)
+    {
+        if(idAbre != FAQ_ABERTO)
+        {
+            $("#" + idAbre).css("display","block");
+            $("#" + idAbre + "-img").css("transform","rotate(90deg)");
+
+            if(FAQ_ABERTO != "")
+            {
+                $("#" + FAQ_ABERTO).css("display", "none");
+                $("#" + FAQ_ABERTO + "-img").css("transform","rotate(0deg)");
+            }
+
+            FAQ_ABERTO = idAbre;
+        }
+        else
+        {
+            $("#" + idAbre).css("display", "none");
+            $("#" + idAbre + "-img").css("transform","rotate(0deg)");
+            FAQ_ABERTO = "";
+        }
+    }
+
+    $('document').ready(function(){
+
+        $(".maskValor").mask("###0.00", {reverse: true});
+
+        var kg = 0;
+        var valor = 0.00;
+
+        // Pegando o valor a ser doado
+        $(".cards").on("click", function(){
+            var doacao = null;
+
+            doacao = $(this).data("valor");
+
+
+            $("#valorDoacaoForm").val(doacao);
+            $("#valorDoado").html("R$"+doacao);
+
+        });
+
+        $(document).on('change', '#kgRange', function() {
+
+            // Pegando o valor em kg no range
+            kg =  $(this).val();
+            valor = kg * 5.00;
+
+            $('#kg').html( kg + "kg");
+            $('#valor').html(formatMoney(valor));
+        });
+
+        function formatMoney(number, places, symbol, thousand, decimal)
+        {
+            places = !isNaN(places = Math.abs(places)) ? places : 2;
+            symbol = symbol !== undefined ? symbol : "";
+            thousand = thousand || ".";
+            decimal = decimal || ",";
+
+            var negative = number < 0 ? "-" : "",
+                i = parseInt(number = Math.abs(+number || 0).toFixed(places), 10) + "",
+                j = (j = i.length) > 3 ? j % 3 : 0;
+
+            return symbol + negative + (j ? i.substr(0, j) + thousand : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousand) + (places ? decimal + Math.abs(number - i).toFixed(places).slice(2) : "");
+        }
+
+    });
+
+</script>
+</body>
+</html>
