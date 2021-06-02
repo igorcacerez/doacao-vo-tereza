@@ -105,9 +105,9 @@ a:hover
 /* BANNER */
 .banner
 {
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner.png");
     background-size: cover;
-    height: 350px;
+    height: 450px;
     background-position: center center;
 }
 
@@ -245,4 +245,12 @@ a:hover
 form
 {
     padding: 0px 15px;
+}
+
+.iconeBtns img
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    cursor: pointer;
 }

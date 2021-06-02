@@ -26,11 +26,11 @@
 
     <!-- SMO Facebook -->
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="http://desigual.com.br/doacoes">
+    <meta property="og:url" content="">
     <meta property="og:title" content="Ajude o Abrigo Vó Tereza">
     <meta property="og:site_name" content="Abrigo Vó Tereza">
     <meta property="og:description" content="Sua doação será destinada a instituições Vó Tereza da cidade de Birigui-SP.">
-    <meta property="og:image" content="https://desigual.com.br/doacoes/assets/img/banner-mobile.png">
+    <meta property="og:image" content="http://desigual.com.br/tereza/assets/img/banner-mobile.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="425">
     <meta property="og:image:height" content="579">
@@ -40,36 +40,43 @@
 </head>
 <body>
 
+<div class="text-center" style="padding: 20px 0px;">
+    <img src="assets/img/logo.png" />
+</div>
+
 <!-- BANNER -->
 <div class="banner"></div>
 
-<!-- BARRA DOAÇÃO -->
-<div class="barra-doacao centraliza-itens">
-    <h1 class="mt-2">Sua doação faz a Diferença</h1>
-</div>
-
-<!-- BARRA DOAÇÃO -->
-<a href="https://api.whatsapp.com/send/?phone=5518991294193" target="_blank">
-    <div style="background-color: #976ca2" class="barra-doacao centraliza-itens">
-        <h1 class="mt-2">Para ajudar de outra maneira: <img width="30px" src="assets/img/whats.png">(18) 99129-4193 </h1>
-    </div>
-</a>
 
 <!-- DOAÇÃO -->
-<div class="container mt-5">
+<div class="container mt-5 iconeBtns">
     <div class="row">
-        <div class="col-md-4 col-sm-6 col-6 magin-cards cards">
+        <div class="col-md-4 col-12 magin-cards cards">
             <a href="https://pag.ae/7V-s9kAS4" target="_blank">
-                <div class="card-doacao" style="background-image: url('assets/img/pagseguro.png');"></div>
+                <img src="assets/img/pagseguro.png" />
             </a>
         </div>
-        <div class="col-md-4 col-sm-6 col-6 magin-cards cards" data-toggle="modal" data-target=".modalPix">
-            <div class="card-doacao" style="background-image: url('assets/img/pix.png');"></div>
+        <div class="col-md-4 col-12 magin-cards cards" data-toggle="modal" data-target=".modalPix">
+            <img src="assets/img/pix.png" />
         </div>
-        <div class="col-md-4 col-sm-6 col-6 magin-cards cards" data-toggle="modal" data-target=".modalDoacao" data-valor="30.00">
+        <div class="col-md-4 col-12 magin-cards cards" data-toggle="modal" data-target=".modalDoacao" data-valor="30.00">
             <a href="https://api.whatsapp.com/send/?phone=5518991294193" target="_blank">
-                <div class="card-doacao" style="background-image: url('assets/img/cpfl.png');"></div>
+                <img src="assets/img/cpfl.png" />
             </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <a href="https://api.whatsapp.com/send/?phone=5518991294193">
+                <img src="assets/img/whats.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <iframe src="https://player.vimeo.com/video/555427496" width="640" height="360" style="max-width: 100%; display: block; margin: 30px auto; " frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -79,7 +86,7 @@
 <div class="container mt-5">
     <div class="row rodape">
         <div class="col-md-12">
-            <p>© 2021 ABRIGO VÓ TEREZA | TODOS OS DIREITOS RESERVADOS.</p>
+            <p style="color: #7d7a73;">© 2021 ABRIGO VÓ TEREZA | TODOS OS DIREITOS RESERVADOS.</p>
         </div>
     </div>
 </div>
@@ -95,12 +102,15 @@
             </div>
             <div class="row">
                 <div class="col-md-12 centraliza-itens">
-                    <label>DOAR PELO PIX</label>
+                    <img src="assets/img/escaneie.png">
                 </div>
             </div>
             <div class="modal-body">
 
                 <img src="assets/img/qrcode-pix.png" style="max-width: 100%; display: block; margin: 0 auto;" />
+
+
+                <img src="assets/img/chave.png" style="max-width: 100%; display: block; margin: 20px auto;" />
 
             </div>
         </div>
